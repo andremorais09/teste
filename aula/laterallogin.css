@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #148143, #ff0000, #fcc300);
+    position: relative;
+
+}
+.image{
+    width: 150px;
+    height: 215px;
+    position: absolute;
+    filter: opacity(50%);
+
+
+}
+
+
+.logo{
+
+   width: 50%;
+   height: 100%;
+   & img {
+        width: 70%;}
+        z-index: 1;
+}
+
+.estrelas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+        radial-gradient(3px 3px at 25% 15%, white, transparent),
+        radial-gradient(1px 1px at 50% 40%, white, transparent),
+        radial-gradient(1px 1px at 10% 55%, white, transparent),
+        radial-gradient(2px 2px at 25% 25%, white, transparent),
+        radial-gradient(1px 1px at 80% 65%, white, transparent),
+        radial-gradient(1.5px 1.5px at 75% 15%, white, transparent),
+        radial-gradient(2px 2px at 25% 65%, white, transparent),
+        radial-gradient(1px 1px at 35% 20%, white, transparent),
+        radial-gradient(1px 1px at 65% 45%, white, transparent),
+        radial-gradient(1px 1px at 55% 10%, white, transparent),
+        radial-gradient(1.5px 1.5px at 285% 15%, white, transparent),
+        radial-gradient(1px 1px at 75% 8%, white, transparent),
+        radial-gradient(1.2px 1.2px at 95% 5%, white, transparent);
+
+}
+
+.formulario {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 16px;
+    padding: 35px;
+
+}
+
+.formulario h1 {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+
+}
+
+.caixa-formulario {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.caixa-formulario input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+    padding: 0 20px;
+
+
+}
+
+.caixa-formulario input::placeholder {
+    color: rgba (255, 0, 0, 0.2);
+}
+
+.caixa-formulario i {
+    position: absolute ;
+    right: 20px;
+    font-size: 20px;
+    top: 25%;
+}
+.lembrar-esqueci{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:25px;
+    font-size: 16px;
+    
+}
+.lembrar-esqueci label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.lembrar-esqueci label input {
+
+    accent-color: #ffffff;
+}
+.lembrar-esqueci a{
+    text-decoration: none;
+    color: #fff;
+}
+.lembrar-esqueci a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 45px;
+    background-color:rgba #ffffff;
+    border: none;
+    border-radius: 8px;
+    outline:   none;
+    cursor: pointer;
+    color: #ff0000;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ;
+}
+button:hover {
+    background-color: white;
+    transform: translateY(-1px);
+}
+
+.link-registro{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    
+    
+    
+}
+.link-registro p{}
+
+.link-registro a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+
+.link-registro a:hover {
+    text-decoration: underline;
+}
+    
+

@@ -1,0 +1,5 @@
+vermelho #ba1933
+
+verde #148143
+
+amarelo #fcc300
